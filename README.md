@@ -8,7 +8,7 @@ Su arquitectura está basada en **módulos escalables (features)** para facilita
 ## Arquitectura del Proyecto
 
 La estructura del proyecto sigue un modelo modular inspirado en las mejores prácticas de React:
-
+~~~
 src/
 │
 ├── assets/ → Imágenes, íconos, fuentes y otros recursos estáticos.
@@ -30,7 +30,7 @@ src/
 ├── routes/ → Configuración de rutas usando React Router.
 ├── services/ → Conexiones a APIs, Firebase o lógica de datos externos.
 └── utils/ → Funciones auxiliares (helpers, validaciones, formateadores...).
-
+~~~
 
 **Idea clave:**  
 Los componentes que se usan en muchas partes del sistema van en `src/components`.  
